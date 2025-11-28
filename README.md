@@ -42,6 +42,7 @@ Each task folder contains:
 
 ## 📁 Project Structure
 
+```
 EAGLEPOINTAI_TECHNICAL_ASSESSMENT_DEBELA_HAILE_SILASE
 │
 ├── Task1_TextAnalyzer/
@@ -56,18 +57,26 @@ EAGLEPOINTAI_TECHNICAL_ASSESSMENT_DEBELA_HAILE_SILASE
 │   ├── README.md
 │   └── solution.js
 │
-├── PROCESS.md ← Full documentation of searches, steps, and decisions
+├── PROCESS.md  (Full documentation of searches, steps, and decisions)
 │
-└── README.md ← 
-
+└── README.md (Project overview)
+```
 
 ## 🚀 How to Run
 
 Each task can be executed with Node.js:
 
+```bash
 node Task1_TextAnalyzer/solution.js
+```
+
+```bash
 node Task2_AsyncRetryFetcher/solution.js
+```
+
+```bash
 node Task3_RateLimiter/solution.js
+```
 
 Author: Debela Haile Silase
 Email: debadeba015@gmail.com
