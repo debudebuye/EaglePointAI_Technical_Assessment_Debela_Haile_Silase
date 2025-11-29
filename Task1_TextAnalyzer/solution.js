@@ -74,3 +74,29 @@ function analyzeText(text) {
         word_frequency: wordFrequency
     };
 }
+
+// --------------------------------------
+// Export the function for reuse/testing
+// --------------------------------------
+// This allows the analyzeText function to be imported in other files,
+// enabling unit testing or integration with additional modules.
+module.exports = analyzeText;
+
+
+// -------------------------------
+// User Input Test (Interactive)
+// -------------------------------
+const readline = require("readline");
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question("Enter text to analyze: ", function (input) {
+    const result = analyzeText(input);
+    console.log("\nAnalysis Result:");
+    console.log(result);
+
+    rl.close();
+});
